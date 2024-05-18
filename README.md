@@ -1,5 +1,9 @@
 # Text ocr api C# calling source code
 
+## Introduction
+
+
+## Source Code 
 ```c#
 var client = new HttpClient();
 var request = new HttpRequestMessage(HttpMethod.Post, "https://netocr.com/api/recogliu.do");
